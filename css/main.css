@@ -1,0 +1,31 @@
+* {
+    /*outline: 1px solid grey;*/
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    }
+
+.custom-page {
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+}
+.header-change {
+    margin-bottom: 20px;
+}
+.text-muted {
+    color: #333;
+}
+.text-thin {
+    font-weight: 100;
+}
+.title-super {
+    font-size: 4.5em;
+}
+.title-logo {
+    border: 1px solid #333;
+    border-radius: 100%;
+    padding: 10px;
+}
