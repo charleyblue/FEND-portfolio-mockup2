@@ -32,7 +32,7 @@
             </section>
             <section class="row">
                 <div class="col-xs-12 col-md-6">
-                    <img src="https://unsplash.it/550/300?image=76" class="img-responsive" alt="Jane's First Project" />
+                    <img src="https://unsplash.it/550/300?image=76" class="img-responsive" data-toggle="modal" data-target="#featuredProject1" alt="Jane's First Project" />
                     <h4>Appify</h4>
                     <a href="#">link to project</a>
                 </div>
@@ -55,5 +55,24 @@
                 </div>
             </section>
         </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="featuredProject1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://unsplash.it/550/300?image=76">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
