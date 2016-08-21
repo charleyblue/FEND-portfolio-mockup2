@@ -29,3 +29,7 @@ body {
     border-radius: 100%;
     padding: 10px;
 }
+.modal-content {
+    background-color: #4d4d4d;
+    color: #fff;
+}

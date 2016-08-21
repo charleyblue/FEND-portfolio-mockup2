@@ -5,14 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>FEND Using Bootsrap Mockup Page</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet">
-
-
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        
+
         <link rel="stylesheet" href="css/main.css">
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -47,19 +45,19 @@
                     <a href="#">link to project</a>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="https://unsplash.it/550/300?image=103" class="img-responsive" alt="Jane's First Project" />
+                    <img src="https://unsplash.it/550/300?image=103" class="img-responsive" data-toggle="modal" data-target="#featuredProject2" alt="Jane's Second Project" />
                     <h4>Appify</h4>
                     <a href="#">link to project</a>
                 </div>
             </section>
             <section class="row">
                 <div class="col-xs-12 col-md-6">
-                    <img src="https://unsplash.it/550/300?image=99" class="img-responsive" alt="Jane's First Project" />
+                    <img src="https://unsplash.it/550/300?image=99" class="img-responsive" data-toggle="modal" data-target="#featuredProject3" alt="Jane's Third Project" />
                     <h4>Appify</h4>
                     <a href="#">link to project</a>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="https://unsplash.it/550/300?image=151" class="img-responsive" alt="Jane's First Project" />
+                    <img src="https://unsplash.it/550/300?image=151" class="img-responsive" data-toggle="modal" data-target="#featuredProject4" alt="Jane's Forth Project" />
                     <h4>Appify</h4>
                     <a href="#">link to project</a>
                 </div>
@@ -71,11 +69,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        <h4 class="modal-title" id="myModalLabel">How Many Miles Pedaled App</h4>
                     </div>
                     <div class="modal-body">
                         <img class="img-responsive" src="https://unsplash.it/550/300?image=76">
-                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        <p>An app to count the miles no matter if you are riding a stationary bike or touring the countryside. It counts you leg's revolutions around the pedals and converts to an accurate miles or kilometers covered. Keep track of you bicycling exercise efforts with our niffty new app. Download a free trial version for Android or iOS.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -83,6 +81,56 @@
                 </div>
             </div>
         </div>
-
+        <!-- 2nd modal -->
+        <div class="modal fade" id="featuredProject2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Sneakers For Santa App</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://unsplash.it/550/300?image=103">
+                        <p>This was the cover photo for the Revolving Club Internationals "Shoes for Tots" shoe drive 2015. Shoes for Tots collects thousands of shoes for children who would otherwise go barefoot and delivers through a network of memebr Santa's.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3rd modal  -->
+        <div class="modal fade" id="featuredProject3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Wagon Train B&amp;B</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://unsplash.it/550/300?image=99">
+                        <p>Stay at the Wagon Train Bed and Breakfast and get a true taste of western life..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4th modal -->
+        <div class="modal fade" id="featuredProject4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Wagon Wheel B&amp;B Rates page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://unsplash.it/550/300?image=151">
+                        <p>Book your stay at Wagon Train today. Prices start at $150 per night and includes a hearty evening chow for for the cowboys and cowgirls in your house.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
