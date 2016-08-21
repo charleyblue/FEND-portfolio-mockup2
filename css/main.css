@@ -48,3 +48,7 @@ a.link-large:visited {
 a.link-large:hover {
     font-size: 175%;
 }
+.target-rollover:hover {
+    cursor: pointer;
+    opacity: 0.50;
+}
