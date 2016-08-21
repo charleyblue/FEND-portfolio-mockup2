@@ -33,3 +33,18 @@ body {
     background-color: #4d4d4d;
     color: #fff;
 }
+.link-large {
+    font-size: small;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+a.link-large:link {
+    color: #ccc;
+    text-decoration: none;
+}
+a.link-large:visited {
+    color: #999;
+}
+a.link-large:hover {
+    font-size: 175%;
+}
